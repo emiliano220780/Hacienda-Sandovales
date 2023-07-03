@@ -1,0 +1,306 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    margin-top: 5em;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nu{
+    width: 50%;
+    height: 50rem;
+    background-color: rgba(200, 20, 59, 0.253);
+    margin-left: 45%;
+    margin-top: -15rem;
+}
+
+.in{
+    color: rgb(199, 191, 191);
+    font-size: 23px;
+    margin-left: 65px;    
+    margin-top: 3rem;
+    
+}
+.button{
+
+    background-color: rgb(204, 25, 61);
+    color: white;
+    margin-top: 10%;
+    margin-left:35%;
+    height: 60px;
+    width:25%;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+.button:hover{
+
+    background-color: rgb(11, 185, 127);
+    transform: scale(1);
+    transition: 1s;
+    
+
+}
+
+.text{
+    margin-top: 6rem;
+    margin-left: 50%;
+    width: 20rem;
+    height: 35px;
+    font-size: 20px;
+}
+
+.sug{
+    font-size: 20px;
+    color: rgb(37, 175, 111);
+    margin-left: 60%;
+    margin-top: 4rem;
+    width: 100%;
+}
+.faceimg{
+    /* width: 5px;
+    height: 5px; */
+    max-width: 100px;
+}
+.faceimg img{
+    object-fit: cover;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.face{
+    background-color: white;
+    height: 50px;
+    width: 210px;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    
+
+    border-radius: 10px;
+
+}
+h4{
+    margin-top: -35px;
+    margin-left: 60px;
+}
+.goo{
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -70px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.gooimg img{
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 20px;
+    
+    
+
+}
+.h{
+    margin-top: -53px;
+    margin-left: 100px;
+    font-size: 22px;
+}
+.teq{
+    margin-left: 40%;
+    margin-top: -40rem;
+    z-index: 100;
+    height: 70%;
+    width: 60%;
+    display: flex;
+}
+
+
+@media (max-width: 1440px){
+
+    .teq{
+        display: block;
+        z-index: 100;
+        height: 60%;
+        width: 70%;
+        margin-top: -40rem;
+        margin-left: -35rem;
+    }
+    .in{
+
+        margin-left: 20px;
+        width: 90%;
+        text-align: center;
+
+    }
+    .text{
+        margin-left: 160px;
+        margin-top: 70px;
+        height: 40px;
+    
+    }
+    .button{
+
+        width: 100x;
+        height: 60px;
+        margin-left: 240px;
+
+    }
+
+    .face{
+
+        margin-top: 50px;
+        margin-left: 70px;
+
+    }
+    .goo{
+
+        margin-top: -68px;
+        margin-left: 400px;
+
+    }
+
+    .sug{
+
+        width: 100%;
+        margin-left: 400px;
+        font-size: 20px;
+        margin-top: 50px;
+
+    }
+
+    .nu{
+
+        height: 56rem;
+
+    }
+
+    
+}
+@media (max-width: 768px){
+
+    .nu{
+
+        width: 350px;
+        
+        margin-left: 30%;
+
+        height: 630px;
+
+
+    }
+
+    .text{
+
+        margin-left: 43px;
+        width: 260px;
+        height: 35px;
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: justify;
+
+    }
+    .button{
+
+        width: 150px;
+        margin-left: 100px;
+
+    }
+
+    .face{
+
+        margin-left: 20px;
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+        margin-top: 10px;
+        
+        
+    }
+
+    .faceimg img{
+
+        margin-left: 1px;
+        height: 40px;
+        width: 45px;
+
+    }
+
+    /* Aqui modificas el tamaño de las letras en el logo de face y de google*/
+    .let{
+        font-size: 18px;
+        margin-left: 40px;
+        
+
+    }
+    .h{
+        
+        font-size: 18px;
+        margin-left: 40px;
+        
+
+    }
+
+   
+
+    
+
+    .goo{
+
+        
+        margin-left: 190px;
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+        margin-top: -60px;
+
+    }
+    .gooimg img{
+
+        margin-left: 1px;
+        height: 40px;
+        width: 45px;
+
+    }
+
+
+
+    .sug{
+
+        margin-left: 150px;
+
+        font-size: 15px;
+
+    }
+
+    .in{
+
+        font-size: 20px;
+
+    }
+
+    .teq{
+
+        opacity: 0.2;
+
+        margin-left: 14.5%;
+
+        margin-top: -185%;
+
+        height: 290px;
+
+        width: 250px;
+
+    }
+}
+
+@media (min-width: 390px){
+
+
+
+}

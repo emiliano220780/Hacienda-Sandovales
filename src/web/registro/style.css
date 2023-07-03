@@ -1,0 +1,69 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(Tequila.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin-left:11px ;
+  background-color:crimson;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.container h2 {
+  text-align: center;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #bfc3c498;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.container input[type="submit"] {
+  background-color: #f50000;
+  color: #fff;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container .social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container .social-login {
+  margin-bottom: 10px;
+}
+
+.container .social-login .btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}

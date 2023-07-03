@@ -1,0 +1,180 @@
+/* .contentpri{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    }
+.card{
+    text-align: center;
+    width: 10%;
+    box-shadow:0 0 10px #dc143c;}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    object-fit: cover;
+} */
+
+body{
+    background-color: rgb(6, 5, 5, 0.99);
+
+}
+/*NAVEGADOR*/
+.haciendas-nav{
+    width: 20%;
+}
+.logo-nav{
+    margin-top: 100px;
+    width: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    position: fixed;
+
+    align-items:center ;
+    background-color: rgb(7, 6, 6);
+    margin-top: -1%;
+    width: 100%;
+    height: 12%;
+    justify-content: left;
+    align-items: center;
+    z-index: 100;
+}
+.texto{
+    margin-left: 50%;
+
+}
+a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/*FONDO CON BUSCADOR*/
+
+.buscar{
+    width: 50%;
+    margin-left: 40%;
+}
+#buscar{
+    margin-top: -10%;
+    border: none;
+    width: 250px;
+    border-radius: 10px;
+}
+#boton-buscar{
+    font-size: 12.9px;
+    border: none;
+    border-radius: 5px;
+    background-color: crimson;
+
+}
+.navimg{
+    background-image: url('/img/imgfondo2.jpg');
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    /* margin-left: 35px;
+    width: 95%; */
+    height: 300px;
+
+}
+.logo-fondo{
+    width: 300px;
+}
+
+
+
+/*/////////////PRODUCTOS///////////////*/
+.card{
+    box-shadow: 0px 0px 30px rgb(72, 17, 17);
+    width: 50%;
+    background-color: white;
+}
+img{
+    padding-top: 10px;
+    border-radius: 8px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.nom-produ{
+    color: black;
+}
+.contentpri{
+    text-align: center;
+    padding-left: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /*     grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    ); */
+    justify-content: space-between;
+}
+
+
+@media
+
+/*screen and*/
+(max-width: 768px) {
+    .haciendas-nav{
+        width:500px;
+    }
+    .logo-nav{
+        width: 400px;
+    }
+    h1{
+        margin-left: -50vh;
+    }
+    .contentpri{
+        margin-left: -50px;
+        font-size: 10px;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+    .navimg{
+        margin-left: -20px;
+    }
+    b{
+        font-size: 8px;
+    }
+}
+
+
+@media
+
+/*screen and*/
+(max-width: 400px) {
+    nav{
+        font-size: 10px;
+        margin-left: -10px;
+        height: 50px;
+    }
+    .logo-nav{
+        width: 250px;
+
+    }
+ .card{
+    width: 100px;
+    margin-left: -30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+ }
+ .buscar{
+    width: 50%;
+    margin-left: 20%;
+}
+}

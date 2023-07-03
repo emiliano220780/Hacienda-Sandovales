@@ -1,0 +1,115 @@
+body{
+
+    background-color: rgb(0, 0, 0);
+
+}
+/* AQUI VA LA IMAGEN DEL LOGO,
+SOLO ES MODIFICARLA Y YA*/
+.tequila {
+
+    height: 200px;
+    width: 175px;
+    margin-left: 35%;
+    margin-top: -160px;
+    display: block;
+
+}
+.contenedor1{
+
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 190px;
+    font-size: 40px;
+    margin-left: 50%;
+    color: rgb(255, 252, 252);
+    margin-top: 90px;
+
+
+
+}
+
+.tequila1{
+
+    height: 400px;
+    width: 370px;
+    margin-left: 9%;
+    margin-top: 45px;
+
+}
+.caja{
+
+    background-color: rgb(36, 36, 36);
+    height: 490px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: -415px;
+    display: block;
+    position: relative;
+    
+}
+.prin{
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 247, 247);
+    height: 200px;
+    width: 390px;
+    position: relative;
+    margin-left: 58%;
+    font-size: 40px;
+    text-align: center;
+}
+.text{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin-left: 58%;
+    margin-top: -60px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.comp{
+
+    background-color: rgb(204, 24, 60);
+    margin-left: 140%;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 18px;
+    position: relative;
+    
+}
+.carr{
+
+    position: relative;
+    margin-left: 185%;
+    margin-top: -50px;
+    display: block;
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.cant{
+
+    position: relative;
+    display: block;
+    width: 40px;
+    margin-left: 105%;
+    margin-top: -120px;
+
+}
+.main{
+
+    background-color: white;
+    height: 550px;
+    width: 1200px;
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 65px;
+}

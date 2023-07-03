@@ -1,0 +1,94 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgba(8, 8, 8, 0.945);
+}
+h1 {
+    margin-top: 20%;
+    margin-left: 13;
+    font-size: 50px;
+    width: 500px;
+    height: 75px;
+    color: rgb(255, 255, 255)
+}
+
+p {
+    
+    margin-top: 50px;
+    margin-left: 30px;
+    color: rgb(200, 20, 60);
+    font-size: 23px;
+}
+
+
+
+.nu {
+    width: 35em;
+    height: 50em;
+    background-color: rgba(200, 20, 59, 0.13);
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-left: 15%;
+    color: rgb(255, 255, 255);
+
+
+}
+
+input {
+    padding: 28px;
+    font-size: 18px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.671);
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 65px;
+    width: 25em;
+    height: 40px;
+}
+
+button {
+    font-size: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background-color: crimson;
+    margin-top: 70px;
+    margin-left: 30%;
+    width: 220px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+}
+.sug{
+    width: 230px;
+    font-size: 19px;
+    color: white;
+    margin-left: 57%;
+
+}
+a{
+    color: rgb(200, 20, 60);
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 25%;
+    margin-left: 0%;
+}
+.face{
+    margin-top: -85px;
+    margin-left: 100px;
+}
+.goo{
+    margin-top: -100px;
+    margin-left: 350px;
+}
+
+
+
+
+
+
+/*<img src="/img/exit.png" alt=" imagen chida">*/

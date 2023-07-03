@@ -1,0 +1,65 @@
+body{
+
+    background-color: black;
+
+}
+.caja{
+
+    background-color: white;
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 10%;
+
+}
+
+.teq{
+
+    position: relative;
+    height: 400px;
+    margin-left: 50px;
+    margin: top -30px;
+
+}
+.desc{
+
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 50%;
+    width: 400px;
+    height: 230px;
+    margin-top: -350px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(82, 81, 81);
+
+
+
+}
+.num{
+
+    margin-top: 0%;
+    margin-left: 57%;
+    position: relative;
+    background-color: rgb(253, 255, 255);
+    border-radius: 10px;
+
+}
+.prec{
+
+    position: relative;
+    margin-left: 67%;
+    margin-top: -70px;
+    font-size: 26px;
+    
+
+}
+.com{
+
+    background-color: rgb(224, 31, 69);
+    font-size: 16px;
+    border-radius: 10px;
+    position: relative;
+
+}

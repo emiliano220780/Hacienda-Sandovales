@@ -1,0 +1,752 @@
+/*     border-top: 1px solid #ffffff; */
+body {
+    background-color: rgb(6, 5, 5, 0.99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* NAVEGADOR SUPERIOR */
+nav {
+
+    display: flex;
+    position: fixed;
+    background-color: rgb(7, 6, 6);
+    margin-top: -12%;
+    width: 100%;
+    height: 12%;
+    justify-content: left;
+    align-items: center;
+    z-index: 100;
+}
+
+/* .nav2{
+    margin-top: -15%;
+    margin-left: 60em;
+
+    align-items: center;
+    justify-content: left;
+    
+} */
+/*<img class="cloud9-item" src="/contenido/1940.png" alt="" height="400" style="position: absolute; transform-origin: 0px 0px; z-index: 66; transform: translate(215.565px, 49.7711px) scale(0.663789);">*/
+b {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 25px 3%;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.nh {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 35px 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+/* /////////////LOGO ////////////////*/
+.logo {
+    height: 140px;
+    /* object-fit: cover; */
+}
+
+/* /////////////LOGIN AND REGISTRO ////////////////*/
+
+.log {
+    margin-left: 12%;
+    text-transform: uppercase;
+    color: white;
+    font-size: small;
+    /*padding: 45px;*/
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    padding-top:15px;
+    padding-bottom: 2px; 
+    text-align: center;
+}
+
+.log:hover {
+    transition: .8s;
+    background-color: #aa032f;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #dc143c,
+        0 0 25px #dc143c,
+        0 0 50px #dc143c,
+        0 0 100px #dc143c;
+    color: white;
+    text-decoration: none;
+}
+
+.reg {
+    justify-content: flex-end;
+    text-transform: uppercase;
+    color: white;
+    background-color: #aa032f;
+    font-size: small;
+    border-radius: 15px;
+    width: 150px;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    /*padding: 20px 60px;*/
+    text-decoration: none;
+}
+
+.reg:hover {
+    background-color: transparent;
+    border-width: 1px;
+    /*border-style: solid;*/
+    border-radius: 15px;
+    /*height: 15px;*/
+    /*padding: 20px 60px;*/
+    transition: .8s;
+    text-decoration: none;
+    box-shadow: 0 0 5px #dc143c,
+        0 0 25px #dc143c,
+        0 0 50px #dc143c,
+        0 0 100px #dc143c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////// ESLOGAN /////////////////////////////////*/
+.eslogan {
+    color: white;
+    margin-top: 25vh;
+    margin-left: 20vh;
+}
+
+.h4eslo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.h1eslo {
+    margin-top: -3vh;
+    /* font-family: 'Lobster Two', cursive;
+    font-family: 'Molle', cursive; */
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////IMAGEN PROMO //////////////////////////////////*/
+.tequilapromo {
+    width: 35%;
+    margin-left: 70%;
+    margin-top: -220px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOTON DE ACERCA DE */
+
+.cer {
+    /*letra*/
+
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 20px;
+    text-align: center;
+    /*tamaño de la etiqueta <a>*/
+    height: 10vh;
+    width: 35vh;
+    margin-left: 8%;
+    margin-top: 3%;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    /* transition: 1s; */
+    letter-spacing: 4px;
+    text-decoration: none;
+
+
+}
+
+/* #03e9f4 */
+.cer:hover {
+    background: #dc143c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 0 5px #dc143c,
+        0 0 25px #dc143c,
+        0 0 50px #dc143c,
+        0 0 100px #dc143c;
+}
+
+span {
+
+    position: absolute;
+    display: block;
+
+}
+
+span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+
+    background: linear-gradient(90deg, transparent, crimson);
+    animation: btn1-animation 1s linear infinite;
+}
+
+@keyframes btn1-animation {
+    0% {
+        left: -100%;
+
+    }
+
+    50%,
+    100% {
+        left: 100%;
+
+    }
+}
+
+span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 8px;
+    height: 100px;
+
+    background: linear-gradient(180deg, transparent, crimson);
+    animation: btn2-animation 1s linear infinite;
+    animation-delay: .25s;
+}
+
+@keyframes btn2-animation {
+    0% {
+        top: -100%;
+
+    }
+
+    50%,
+    100% {
+        top: 100%;
+
+    }
+}
+
+span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, crimson);
+    animation: btn3-animation 1s linear infinite;
+    animation-delay: .5s;
+}
+
+@keyframes btn3-animation {
+    0% {
+        right: -100%;
+
+    }
+
+    50%,
+    100% {
+        right: 100%;
+
+    }
+}
+
+span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, crimson);
+    animation: btn4-animation 1s linear infinite;
+    animation-delay: .75s;
+}
+
+@keyframes btn4-animation {
+    0% {
+        bottom: -100%;
+
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+
+    }
+}
+/*/////////IFRAME/////////////*/
+.content-dir{
+    background-image: url("../../img/img/fondogps.jpg");
+    height: 69.5vh;
+}
+.cargps{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 3px ;
+    width: 250px;
+    height: 300px;
+    margin-top: -30%;
+    margin-left: 70%;
+    align-items: right;
+    text-align: justify;
+    box-shadow: 1px 2px 11px 2px crimson;
+}
+.cargps h1{
+    text-align: center;
+}
+.imgframe{
+    object-fit: cover;
+    margin-top: -5%;
+    display: block;
+    margin: 0 auto;
+}
+.fonh{
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////ACERCA DE //////////////////*/
+hr {
+    margin-top: 1%;
+}
+
+.hrimg {
+    width: 100%;
+}
+
+.cercade {
+    border-top: 1px solid #ffffff;
+    padding-top: 45px;
+    padding-left: 100px;
+    margin-top: 4%;
+    margin-left: -10px;
+    width: 94%;
+    height: 100vh;
+    /*background-color: #363535;*/
+}
+.acerca {
+    font-size: 45px;
+    color: white;
+    text-align: left;
+}
+.info {
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    width: 550px;
+}
+.imgacer {
+    margin-left: 55%;
+    margin-top: -25%;
+    width: 25%;
+}
+
+.descu {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
+/*//////////////contactp///////////////*/
+.contact-container{
+    border-top: 1px solid #ffffff;
+    color: #fff;
+    text-align: justify;
+    
+}
+.cardemail h1{
+    text-align: center;
+}
+.contact-left{
+    width: 50%;
+    padding: 0 15px;
+}
+.continfo{
+    text-transform: uppercase;
+    
+}
+#infcont{
+    color: #aa032f;
+}
+/*CONTACT LEFT*/
+.contact-right{
+    float: right;
+    margin-top: -25%;
+    width: 50%;
+
+}
+.contact-right label{
+    font-size: 20px;
+}
+.form-contact{
+    padding-top: 15px;
+    color: white;
+    border: none;
+    outline:none ;
+    background:transparent;
+    border-bottom: 2px solid white;
+    width: 90%;
+}
+
+#mensaje{
+    height: 150px;
+    border: 1px solid white;
+}
+#msj{
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 50px;
+}
+
+.boton-contact{
+    background-color: #aa032f;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+}
+.boton-contact:hover{
+    color: white;
+    box-shadow:     0 0 5px #dc143c,
+    0 0 25px #dc143c,
+    0 0 50px #dc143c,
+    0 0 100px #dc143c;
+
+}
+
+/* 0 0 25px #aa032f,
+    0 0 50px #aa032f,
+    0 0 75px #aa032f,
+    0 0 100px #aa032f,
+    ; */
+
+/*SECCION RESPONSIVE*/
+
+
+@media
+
+/*screen and*/
+(min-width: 1440px) {       
+    nav{
+        margin-top: -17%;
+    }
+    .nh {
+        font-size: 1.8vh;
+    }
+    .log,
+    .reg {
+        font-size: 14px;
+    }
+    .content-dir{
+        background-size: 100%;
+        height: 450px;
+    }
+}
+@media
+
+/*screen and*/
+(max-width: 768px) {
+    nav{
+        width: 100%;
+        margin-top: -25%;
+        height: 100px;
+    }
+    b{
+        margin-left: -20px;
+    }
+    .nh {
+        margin-top: 12px;
+        padding: 1px 10px;
+
+    }
+    .log,
+    .reg {
+        margin-top: 12px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .cer{
+        width: 150px;
+        height: 55px;
+    }
+    .h1eslo{
+        margin-top: -40px;
+        font-size: 40px;
+    }
+    .eslogan{
+        margin-left: 10px;
+        
+    }
+
+
+
+    .content-dir{
+        width: 100%;
+        height: 450px;
+
+    }
+    iframe{
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 40%;
+        height: 400px;
+    }
+    .cargps{
+        margin-top: -50%;
+        margin-left: 55%;
+    }
+    /* .imgframe{
+
+    } */
+    .imgacer{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 30%;
+    }
+    .descu{
+        margin-left: -18.5%;
+    }
+}
+
+
+@media
+
+/*screen and*/
+(max-width: 400px) {
+    nav{
+        width: 100%;
+        margin-top: -60%;
+        height: 100px;
+        font-size: 1px;
+    }
+    b{
+        margin-left: -20px;
+
+    }
+    .nh {
+        margin-top: 12px;
+        padding: 1px 10px;
+        font-size: 0px;
+        color: transparent;
+
+    }
+    .reg {
+        margin-top: 12px;
+        margin-left: 1px;
+        font-size: 8px;
+        padding: 10px 2px;
+    }
+    .log{
+        justify-content: center;        margin-top: 12px;
+        margin-left: 1px;
+        font-size: 8px;
+    }
+    .log:hover{
+        height: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .cer{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: -10px;
+    }
+    .h4eslo{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .h1eslo{
+
+        font-size:18px;
+    }
+    .eslogan{
+        margin-left: 10px;
+        
+    }
+
+
+
+    .content-dir{
+        width: 100%;
+        height: 450px;
+
+    }
+    iframe{
+        padding-top: 90px;
+        padding-left: 10px;
+        width: 45%;
+        height: 300px;
+    }
+    .cargps{
+        margin-top: -85%;
+        margin-left: 55%;
+        height: 300px;
+        width: 40%;
+        font-size: 10px;
+    }
+    .imgframe{
+        max-width: 100px;
+        object-fit: cover;
+        border-radius:  3% ;
+    }
+    .imgacer{
+    margin-top: 10%;
+    margin-left: 25%;
+    
+    }
+    .descu{
+        margin-left: -12%;
+    }
+    .cercade{
+        
+        padding-left: 5vh;
+
+    }
+    .acerca{
+        margin-left: 8%;
+    }
+    .info{
+        max-width: 250px;
+        padding-left: 15px;
+        font-size: 10px;
+
+    }
+    .contact-left{
+        width: 90%;
+    }
+    .contact-right{
+        width: 100%;
+        margin-top: 20%;
+        margin-left: -10%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navbar{
+    display: flex;
+    margin-right: 10px;
+    z-index: 100;
+}
+.navbar a{ 
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+
+    text-transform:  uppercase;
+    font-size: 20px;
+}*/
