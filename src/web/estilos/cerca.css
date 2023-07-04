@@ -179,7 +179,7 @@ a:hover {
 /*/////////////IMAGEN PROMO //////////////////////////////////*/
 .tequilapromo {
     width: 35%;
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: -220px;
 
 }
@@ -219,7 +219,7 @@ a:hover {
     height: 10vh;
     width: 35vh;
     margin-left: 8%;
-    margin-top: 3%;
+    margin-top: -20%;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -566,13 +566,15 @@ hr {
     }
     .h1eslo{
         margin-top: -40px;
-        font-size: 40px;
+        font-size: 32px;
     }
     .eslogan{
         margin-left: 10px;
         
     }
-
+    .tequilapromo{
+        margin-left: 500px;
+    }
 
 
     .content-dir{
