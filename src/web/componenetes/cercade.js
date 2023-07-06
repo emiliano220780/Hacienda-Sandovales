@@ -1,6 +1,7 @@
 import '../estilos/cerca.css';
-import tequila from '../../img/img/teq.png';
-import navlogo from '../../img/img/LogoReal.png';
+// import tequila from '../../img/img/teq.png';
+import navlogo from '../../img/LogoReal.png';
+import Tequila from '../../img/teq.png'
 export default function Cercade() {
 
     return (
@@ -8,12 +9,9 @@ export default function Cercade() {
         <div class="logo">
             <img src={navlogo} alt="logo" class="logo"/>
         </div>
-            {/* <b>Haciendas
-            <br/>Sandovales</b> */}
             <a class="nh" href="#">Inicio</a>
 
             <a class="nh" href="#direc">Direccion</a>
-                {/* <!--Servicios#region  <a class="nh" href="/index.html">Planes</a>--> */}
             <a class="nh" href="#contact">Contacto</a>
                 <a href="/Sai/MainSal.html" class="log"> iniciar sesion </a>
         <a href="/registro/formulario de regitro.html" class="reg"> registrarse </a>
@@ -23,7 +21,7 @@ export default function Cercade() {
     <div class="eslogan" > <h4 class="h4eslo">a tu alcance</h4>
         <h1 class="h1eslo">¡LA MEJOR DE TEQUILERIA!</h1>
     </div>
-    <img src={tequila} alt="" class="tequilapromo"/>
+    <img src={Tequila} alt="" class="tequilapromo"/>
         <div class="card"> 
             <ul>
             <li><a class="cer" href="#hiperid" target="_self">
@@ -48,7 +46,7 @@ export default function Cercade() {
             <div class="cargps">
                 <h1>VISITANOS YA </h1>
                 <h4 class="fonh"> Jalisco, la tierra que vio nacer al tequila, celebra una relación íntima con esta icónica bebida espirituosa. Con su clima ideal y rica tradición agavera, Jalisco produce los mejores tequilas del mundo. Descubre la pasión y el sabor únicos que solo Jalisco puede ofrecer en cada sorbo de tequila</h4>
-                <img src="../../img/img/jaliscocard.jpg" alt="" class="imgframe"/>
+                <img src="../../img/jaliscocard.jpg" alt="" class="imgframe"/>
             </div>
         </div>
     </div>
@@ -63,7 +61,7 @@ export default function Cercade() {
             Explora nuestra variedad de tequilas artesanales y de renombr/adas marcas reconocidas por su excelencia. Desde los clásicos tequilas reposados y añejos hasta los vibr/antes tequilas blancos, tenemos algo para todos los gustos.
             Sumérgete en la tradición y el legado del tequila mientras exploras nuestra tienda virtual. Cada botella cuenta una historia y te invita a disfrutar de su sabor distintivo. Nuestros productos son cuidadosamente seleccionados para garantizar la más alta calidad y autenticidad.
             Ya sea que estés buscando el regalo perfecto o simplemente quieras deleitarte con un tequila excepcional, estamos aquí para ayudarte. Nuestro objetivo es br/indarte una experiencia de compra satisfactoria y garantizarte la entrega segura de tu selección.</h4>
-            <img src="../../img/img/tequila.jpg" alt="" class="imgacer"/>
+            <img src={Tequila} alt="" class="imgacer"/>
             <h3 class="descu">Descubr/e mas con la tienda virtual 100% mexicana</h3>
     </div>
     <div class="contact-container" id="contact">
